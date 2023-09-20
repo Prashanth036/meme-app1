@@ -6,7 +6,7 @@ import Routing from './routes/index';
 function App() {
   return (
     <div>
-    <HashRouter basename='/xyz'>
+    <HashRouter>
     <Routing />
     </HashRouter>
     </div>
