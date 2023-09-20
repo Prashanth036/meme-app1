@@ -14,6 +14,7 @@ export default function Routing(){
             <Route path="creatememe" element={<Creatingmeme />} />
             <Route path="uploadmeme"  element={<Uploadmeme/>} />
         </Route>
-    </Routes></>
+    </Routes>
+    </>
     );
 }
