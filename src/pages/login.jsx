@@ -60,6 +60,10 @@ const Form12=()=>{
 
     return(
         <div className="backgroundImg1">
+          <div>
+            use any of details from array to login into
+          {peoples}
+          </div>
         <div className="form2"><form className="form1" onSubmit={handleSubmit}>
   <ul className="list1">
     <li style={{fontSize:'30px',textAlign:'center'}}>MEME CREATOR</li>
