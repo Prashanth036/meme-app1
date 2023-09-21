@@ -8,7 +8,7 @@ export default function Routing(){
     return(
     <>
     <Routes>
-        <Route path="/" element={<Form12 />}/>
+        <Route  path="/" element={<Form12 />} />
         <Route path="main" element={<Main />}>
             <Route index element={<Creatingmeme />} />
             <Route path="creatememe" element={<Creatingmeme />} />

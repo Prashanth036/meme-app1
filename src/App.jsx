@@ -6,8 +6,8 @@ import Routing from './routes/index';
 function App() {
   return (
     <div>
-    <HashRouter >
-    <Routing />
+    <HashRouter>
+  <Routing />
     </HashRouter>
     </div>
   );
